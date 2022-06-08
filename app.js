@@ -12,7 +12,6 @@ app.get('/', (req, res) => {
 
 
 
-app.listen(3000, (err) => {
-  console.log(err)
+app.listen(3000, () => {
   console.log('Express App on port 3000!');
 });
